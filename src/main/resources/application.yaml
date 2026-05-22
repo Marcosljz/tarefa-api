@@ -1,11 +1,12 @@
-pring:
+spring:
   jpa:
     database: POSTGRESQL
     hibernate:
       ddl-auto: update
     show-sql: true
+
   datasource:
     url: jdbc:postgresql://localhost:5432/tarefa-db
-    password: Sen@c2023
     username: postgres
-    driverClassName: org.postgresql.Driver
+    password: Sen@c2023
+    driver-class-name: org.postgresql.Driver
